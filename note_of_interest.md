@@ -1,3 +1,6 @@
+## To do  
+* markdown内での数式(疑似数式含む)の良い書き方を見つけたい気がする  
+
 ## 20200208  
 ### source  
 "How to teach AI to play Games: Deep Reinforcement Learning"  
