@@ -35,7 +35,7 @@ MarIQ (マリオカートをプレイするAI (Deep Q Learning) )の紹介 (コ�
 ## 20200209  
 ### source  
 A step-by-step guide to building a simple chess AI
-[https://www.freecodecamp.org/news/simple-chess-ai-step-by-step-1d55a9266977/]  
+https://www.freecodecamp.org/news/simple-chess-ai-step-by-step-1d55a9266977/  
 ### summary
 JSを用いてチェスAI (minimax法) を実装する方法の紹介 (コードあり)  
 
@@ -43,8 +43,8 @@ JSを用いてチェスAI (minimax法) を実装する方法の紹介 (コード
 ## 20200209  
 ### source  
 遺伝的アルゴリズムでソニック・ザ・ヘッジホッグを攻略  
-[https://note.com/npaka/n/n9c0377b1e560]  
-原文 [https://www.freecodecamp.org/news/how-to-use-ai-to-play-sonic-the-hedgehog-its-neat-9d862a2aef98/]  
+https://note.com/npaka/n/n9c0377b1e560  
+原文 https://www.freecodecamp.org/news/how-to-use-ai-to-play-sonic-the-hedgehog-its-neat-9d862a2aef98/  
 ### summary  
 - Gym Retroを用いてソニックのゲームをプレイするAIを作る方法の概説  
 ### content  
@@ -57,7 +57,7 @@ JSを用いてチェスAI (minimax法) を実装する方法の紹介 (コード
 ## 20200209  
 ### source  
 I created an AI to Play Chess  
-[https://www.youtube.com/watch?v=DZfv0YgLJ2Q]  
+https://www.youtube.com/watch?v=DZfv0YgLJ2Q  
 ### summary  
 - JSで実装したチェスAI (MiniMax法)の紹介  
 ### content  
@@ -75,8 +75,8 @@ I created an AI to Play Chess
 ## 20200209  
 ### source  
 MarI/O - Machine Learning for Video Games  
-[https://youtu.be/qv6UVOQ0F44]  
-  - source code : [https://pastebin.com/ZZmSNaHX]  
+https://youtu.be/qv6UVOQ0F44  
+  - source code : https://pastebin.com/ZZmSNaHX  
 ### summary  
 - NEATを用いた、スーパーマリオをプレイするNNの解説  
 ### content  
@@ -99,7 +99,7 @@ MarI/O - Machine Learning for Video Games
 ## 20200208  
 ### source  
 How to teach AI to play Games: Deep Reinforcement Learning  
-[https://towardsdatascience.com/how-to-teach-an-ai-to-play-games-deep-reinforcement-learning-28f9b920440a]  
+https://towardsdatascience.com/how-to-teach-an-ai-to-play-games-deep-reinforcement-learning-28f9b920440a  
 "In this article, we will see how to develop an AI Bot able to learn how to play the popular game Snake from scratch. To do it, we implement a Deep Reinforcement Learning algorithm using Keras on top of Tensorflow. This approach consists in giving the system parameters related to its state, and a positive or negative reward based on its actions. No rules about the game are given, and initially the Bot has no information on what it needs to do. The goal for the system is to figure it out and elaborate a strategy to maximize the score — or the reward."  
 ### summary  
 - ゲームエージェントとしての強化学習の概説と、シンプルな実装の解説  
@@ -130,7 +130,7 @@ How to teach AI to play Games: Deep Reinforcement Learning
             <Discount rate> * <maximum predicted reward, given new state and all possible actions> -  
             <Current Q-value>  
             )  
-      同時に、[s, action, state', reward, <the game is ended or not>]を取得. (後でNNのトレーニングに使用) (Replay Memoryと呼ばれるオペレーション)  
+      同時に、[s, action, state', reward, <the game is ended or not>] を取得. (後でNNのトレーニングに使用) (Replay Memoryと呼ばれるオペレーション)  
     5. 一定の条件を満たすまで上2つを繰り返す  
   - 状態 state  
     - agentがいる状況の表現  
