@@ -34,7 +34,7 @@ MarIQ (マリオカートをプレイするAI (Deep Q Learning) )の紹介 (コ�
 
 ## 20200209  
 ### source  
-A step-by-step guide to building a simple chess AI
+A step-by-step guide to building a simple chess AI  
 https://www.freecodecamp.org/news/simple-chess-ai-step-by-step-1d55a9266977/  
 ### summary
 JSを用いてチェスAI (minimax法) を実装する方法の紹介 (コードあり)  
@@ -123,6 +123,7 @@ https://towardsdatascience.com/how-to-teach-an-ai-to-play-games-deep-reinforceme
       (actionの選択はランダムまたはNNによって行われる. 傾向として、トレーニングの初期は探索範囲の最大化のためにランダムに選択され、トレーニング終盤はNNによって選択される)  
     4. システムは実行したactionに対してrewardを獲得し、新しいstate state' を取得. Bellman equationに基づきQ-tableを更新する. 
       - Bellman equation  
+        ```
         <New Q-value> =  
           <Current Q-value> +  
           <Learning rate> * (  
@@ -130,6 +131,7 @@ https://towardsdatascience.com/how-to-teach-an-ai-to-play-games-deep-reinforceme
             <Discount rate> * <maximum predicted reward, given new state and all possible actions> -  
             <Current Q-value>  
             )  
+        ```
       同時に、[s, action, state', reward, <the game is ended or not>] を取得. (後でNNのトレーニングに使用) (Replay Memoryと呼ばれるオペレーション)  
     5. 一定の条件を満たすまで上2つを繰り返す  
   - 状態 state  
