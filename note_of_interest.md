@@ -10,7 +10,7 @@
 ## 20200209  
 ### source  
 MarIQ -- Q-Learning Neural Network for Mario Kart -- 2M Sub Special  
-https://www.youtube.com/watch?v=Tnu4O_xEmVk  
+<https://www.youtube.com/watch?v=Tnu4O_xEmVk>  
 ### summary  
 MarIQ (マリオカートをプレイするAI (Deep Q Learning) )の紹介 (コード, ドキュメントあり)  
 ### content  
