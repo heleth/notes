@@ -1,7 +1,6 @@
 ## To do  
-* markdown内での数式(疑似数式含む)の良い書き方を見つけたい気がする  
 
-## 2020XXXX  
+## 2020XXXX (template)   
 ### source  
 ### summary  
 ### content  
@@ -103,8 +102,6 @@ https://towardsdatascience.com/how-to-teach-an-ai-to-play-games-deep-reinforceme
 "In this article, we will see how to develop an AI Bot able to learn how to play the popular game Snake from scratch. To do it, we implement a Deep Reinforcement Learning algorithm using Keras on top of Tensorflow. This approach consists in giving the system parameters related to its state, and a positive or negative reward based on its actions. No rules about the game are given, and initially the Bot has no information on what it needs to do. The goal for the system is to figure it out and elaborate a strategy to maximize the score — or the reward."  
 ### summary  
 - ゲームエージェントとしての強化学習の概説と、シンプルな実装の解説  
-### next  
-- サンプルコードがあるので、そのコードを理解したい  
 ### content  
 * Artificial intelligenceとArtificial behaviorは異なる. ゲームAIはMLの限界に挑戦する必要はなく、人間プレイヤーの相手を務められる程度に賢ければ良い.   
 * Pygame : Pythonで簡単なゲームをコードできるライブラリ.  
